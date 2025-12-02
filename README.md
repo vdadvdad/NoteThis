@@ -1,16 +1,18 @@
-# note_this
+# NoteThis
 
-A new Flutter project.
+Flutter-based tool for taking handwritten notes on MacOS
 
-## Getting Started
+## To-Do List
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+[x] Save system
+[x] Support for multiple pages
+[x] Infinite Canvas
+[x] Stylus support for MacOS
+[x] PDF export
+[x] Undo-Redo
+[x] Pen Settings
+[] Color Theme changes
+[] Support for Text
+[] Settings
+[] Pictures
+[] AI-based Search
