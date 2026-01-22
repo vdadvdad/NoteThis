@@ -116,6 +116,7 @@ enum ObjectType {
   text,
   image,
   color,
+  annotation,
 }
 enum ActionType {
   draw,

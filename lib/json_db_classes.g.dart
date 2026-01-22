@@ -48,3 +48,17 @@ Map<String, dynamic> _$JsonTextToJson(JsonText instance) => <String, dynamic>{
   'fontSize': instance.fontSize,
   'color': instance.color,
 };
+
+JsonAnnotation _$JsonAnnotationFromJson(Map<String, dynamic> json) =>
+    JsonAnnotation(
+      json['text'] as String,
+      (json['coordinates'] as List<dynamic>)
+          .map((e) => (e as num).toDouble())
+          .toList(),
+    );
+
+Map<String, dynamic> _$JsonAnnotationToJson(JsonAnnotation instance) =>
+    <String, dynamic>{
+      'text': instance.text,
+      'coordinates': instance.coordinates,
+    };
